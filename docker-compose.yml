@@ -1,0 +1,6 @@
+version: '3'
+services:
+  inference_server:
+    image: aasthaagrawal10/projectthree:v1
+    ports:
+      - "5000:5000"
